@@ -1,0 +1,43 @@
+{
+  "name": "roe-nft-strategy-landing",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@portal-hq/connect": "^4.1.3",
+    "@rainbow-me/rainbowkit": "^2.2.8",
+    "@tanstack/react-query": "^5.80.7",
+    "@walletconnect/client": "^1.8.0",
+    "@walletconnect/qrcode-modal": "^1.8.0",
+    "@walletconnect/web3wallet": "^1.16.1",
+    "@web3modal/ethereum": "^2.7.1",
+    "@web3modal/html": "^2.7.1",
+    "aos": "^3.0.0-beta.6",
+    "ethers": "^6.14.4",
+    "framer-motion": "^12.18.1",
+    "keccak256": "^1.0.6",
+    "lucide-react": "^0.516.0",
+    "merkletreejs": "^0.2.32",
+    "next": "^15.3.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-intersection-observer": "^9.16.0",
+    "react-parallax": "^3.5.1",
+    "viem": "2.x",
+    "wagmi": "^2.15.6",
+    "web3": "^4.16.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.7",
+    "eslint": "8.19.0",
+    "eslint-config-next": "12.2.2",
+    "postcss": "^8.4.14",
+    "prettier": "2.7.1",
+    "tailwindcss": "^3.1.5"
+  }
+}
