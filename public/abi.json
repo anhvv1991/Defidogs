@@ -863,7 +863,13 @@
     "type": "function"
   },
   {
-    "inputs": [],
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "ethPriceMint",
+        "type": "uint256"
+      }
+    ],
     "name": "setMainnetPrice",
     "outputs": [],
     "stateMutability": "nonpayable",
