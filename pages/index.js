@@ -230,17 +230,33 @@ Same as our previous set, this collection, THE DEFI DOFS - LEGEND EDITION also c
           <header className="bg-black/20 w-screen backdrop-blur-md border-b border-purple-500/20">
             <div className="mx-auto pr-4 sm:pr-6 lg:px-8">
               <div className="flex justify-between items-center h-16">
-                {/* Logo */}
-                <div className="relative w-[200px] lg:w-[250px] h-[60px] lg:h-[100px]">
-                  <Link href="/" className="relative block w-full h-full">
-                    <Image
-                      src="/images/defido-logo.png"
-                      layout="fill"
-                      objectFit="cover"
-                      alt="Logo"
-                    />
-                  </Link>
+                <div className="flex items-center lg:gap-20">
+                  {/* Logo */}
+                  <div className="relative w-[200px] lg:w-[250px] h-[60px] lg:h-[100px]">
+                    <Link href="https://www.defido.io/" className="relative block w-full h-full" target="_blank" rel="noopener noreferrer">
+                      <Image
+                        src="/images/defido-logo.png"
+                        layout="fill"
+                        objectFit="cover"
+                        alt="Logo"
+                      />
+                    </Link>
+                  </div>
+                  {/* X Social */}
+                  <div className="relative w-[36px] lg:w-[300px] h-[36px] lg:h-[120px]">
+                    <Link href="https://x.com/defidotoken" className="relative block w-full h-full" target="_blank" rel="noopener noreferrer">
+                      {isMobile ? <div className="w-full h-full bg-black p-2 rounded-full flex items-center justify-center">   
+                        <svg viewBox="0 0 24 24" aria-hidden="true" class="r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-lrsllp r-1nao33i r-16y2uox r-8kz0gk"><g><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" fill="white"></path></g></svg>
+                      </div>  : <Image
+                        src="/images/x-defido.png"
+                        layout="fill"
+                        objectFit="contain"
+                        alt="X Social"
+                      />}
+                    </Link>
+                  </div>
                 </div>
+
 
                 {/* Wallet Connect */}
                 <div className="flex items-center justify-center gap-2">
@@ -353,7 +369,7 @@ Same as our previous set, this collection, THE DEFI DOFS - LEGEND EDITION also c
           <main className="relative max-w-full mx-auto w-full min-h-screen flex flex-col items-center">
 
             {/* Section 1 */}
-            <div className="relative w-full h-[330px] md:h-[700px] lg:h-[880px] mb-10 lg:mb-40">
+            <div className="relative w-full h-[330px] md:h-[700px] lg:h-[880px]">
               {/* Defi dog Header - Background Image */}
               <div className="overflow-hidden w-full flex justify-center">
                 <Image
@@ -541,6 +557,9 @@ Same as our previous set, this collection, THE DEFI DOFS - LEGEND EDITION also c
                   </motion.div>
                 </div>
               </div>
+            </div>
+            <div className="max-w-[80%] mx-auto my-4 lg:my-6">
+              <p className="text-center text-[13px] lg:text-[20px] text-white font-secondary font-light leading-[16px] lg:leading-[28px] capitalize lg:mb-1"  >Meet the coolest dogs on Base! DeFido, the guardian of Base, is stepping furture into the NFT scene with our second collection: “DeFi Dogs – Legends Edition.” Each DeFi Dog is uniquely designed to be the most stylish and lovable pup around, all while representing the spirit of the DeFido token. Inspired by a viral 2021 meme-era Tweet, the DeFi Dogs were born—and now, 3,333 of them have returned to Base. Owning a DeFi Dog unlocks access to an exclusive community and future perks through our future plan.</p>
             </div>
 
             {/* Section 2 */}
