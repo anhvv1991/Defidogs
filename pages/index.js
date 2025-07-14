@@ -243,7 +243,7 @@ Same as our previous set, this collection, THE DEFI DOFS - LEGEND EDITION also c
                     </Link>
                   </div>
                   {/* X Social */}
-                  <div className="relative w-[36px] lg:w-[300px] h-[36px] lg:h-[60px] bg-black lg:bg-transparent p-2 lg:p-0 rounded-full lg:rounded-none">
+                  <div className="relative w-[36px] lg:w-[380px] h-[36px] lg:h-[60px] bg-black lg:bg-transparent p-2 lg:p-0 rounded-full lg:rounded-none">
                     <Link href="https://x.com/defidotoken" className="relative block w-full h-full" target="_blank" rel="noopener noreferrer">
                       {isMobile ? <div className="w-[20px] h-[20px] rounded-full flex items-center justify-center">   
                         <Image
@@ -374,7 +374,7 @@ Same as our previous set, this collection, THE DEFI DOFS - LEGEND EDITION also c
           <main className="relative max-w-full mx-auto w-full min-h-screen flex flex-col items-center">
 
             {/* Section 1 */}
-            <div className="relative w-full h-[330px] md:h-[700px] lg:h-[880px]">
+            <div className="relative w-full h-[330px] md:h-[700px] lg:h-[880px] mb-10 lg:mb-40">
               {/* Defi dog Header - Background Image */}
               <div className="overflow-hidden w-full flex justify-center">
                 <Image
@@ -563,9 +563,9 @@ Same as our previous set, this collection, THE DEFI DOFS - LEGEND EDITION also c
                 </div>
               </div>
             </div>
-            <div className="max-w-[80%] mx-auto my-4 lg:my-6">
+            {/* <div className="max-w-[80%] mx-auto my-4 lg:my-6">
               <p className="text-center text-[13px] lg:text-[20px] text-white font-secondary font-light leading-[16px] lg:leading-[28px] capitalize lg:mb-1"  >Meet the coolest dogs on Base! DeFido, the guardian of Base, is stepping furture into the NFT scene with our second collection: “DeFi Dogs – Legends Edition.” Each DeFi Dog is uniquely designed to be the most stylish and lovable pup around, all while representing the spirit of the DeFido token. Inspired by a viral 2021 meme-era Tweet, the DeFi Dogs were born—and now, 3,333 of them have returned to Base. Owning a DeFi Dog unlocks access to an exclusive community and future perks through our future plan.</p>
-            </div>
+            </div> */}
 
             {/* Section 2 */}
             <div className="max-w-[80%] mx-auto grid grid-rows-[auto_auto] grid-cols-3 lg:grid-cols-5 gap-2 lg:gap-4 rounded-xl lg:rounded-3xl w-full">
