@@ -243,10 +243,15 @@ Same as our previous set, this collection, THE DEFI DOFS - LEGEND EDITION also c
                     </Link>
                   </div>
                   {/* X Social */}
-                  <div className="relative w-[36px] lg:w-[300px] h-[36px] lg:h-[120px]">
+                  <div className="relative w-[36px] lg:w-[300px] h-[36px] lg:h-[60px] bg-black lg:bg-transparent p-2 lg:p-0 rounded-full lg:rounded-none">
                     <Link href="https://x.com/defidotoken" className="relative block w-full h-full" target="_blank" rel="noopener noreferrer">
-                      {isMobile ? <div className="w-full h-full bg-black p-2 rounded-full flex items-center justify-center">   
-                        <svg viewBox="0 0 24 24" aria-hidden="true" class="r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-lrsllp r-1nao33i r-16y2uox r-8kz0gk"><g><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" fill="white"></path></g></svg>
+                      {isMobile ? <div className="w-[20px] h-[20px] rounded-full flex items-center justify-center">   
+                        <Image
+                        src="/images/x-mobile.png"
+                        layout="fill"
+                        objectFit="contain"
+                        alt="X Social"
+                      />
                       </div>  : <Image
                         src="/images/x-defido.png"
                         layout="fill"
